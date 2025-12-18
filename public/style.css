@@ -448,6 +448,17 @@ img {
     color: var(--yellow-light);
 }
 
+.map-container {
+    margin-top: 3rem;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+}
+
+.map-container iframe {
+    display: block;
+}
+
 /* ====== Footer ====== */
 .footer {
     background: var(--navy-dark);
